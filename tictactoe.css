@@ -1,0 +1,168 @@
+body{
+    background-image: url("tictactoe.png");
+    background-size: cover;
+    color: white;
+}
+
+.gamename{
+    font-family: 'Luckiest Guy', cursive;
+    font-size: 140px;
+    position: relative;
+    left: 3%;
+}
+
+#inputnames{
+    display: block;
+    color: white;
+}
+
+.startbox{
+    position: relative;
+    left: 13%;
+}
+
+#startbutton{
+    transform: 1s ease-in;
+}
+
+#inputnames{
+    transform: 1s ease-in;
+    display: none;
+}
+
+#startbutton button{
+    color: #FFFFFF;
+  background-color: rgba(0, 0, 0, 0);
+  padding: 1px,1px,1px,1px;
+  border: 3px solid white;
+  width: 235px;
+  height: 112px;
+  border-radius: 70px;
+  margin-bottom: 2%;
+  transition: 0.5s;
+  font-family: 'Julius Sans One', sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+  font-weight: bold;
+}
+#inputnames button{
+  color: #FFFFFF;
+  background-color: rgba(0, 0, 0, 0);
+  padding: 1px,1px,1px,1px;
+  border: 3px solid white;
+  width: 112px;
+  height: 115px;
+  border-radius: 70px;
+  margin-bottom: 2%;
+  transition: 0.5s;
+  font-family: 'Julius Sans One', sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+  position: relative;
+  left: 11%;
+}
+
+#inputnames button:hover{
+  background-color: purple;
+  color: black;
+  cursor: pointer;
+  box-shadow: 4px 0px 30px rgba(255, 255, 255, 0.26);
+}
+
+#startbutton button:hover{
+  background-color: white;
+  color: black;
+  cursor: pointer;
+}
+
+.gamename span{
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+input{
+    width: 270px;
+    height: 45px;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    border-radius: 12px;
+    font-family: 'Righteous', cursive;
+    border: 2px white solid;
+    background-color: transparent;
+}
+
+#inputnames p{
+    font-size: 38px;
+    font-family: 'Chewy', cursive;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.red{
+        position: relative;
+    right:1px;
+}
+.green{
+        position: relative;
+    right:43px;    
+}
+.yellow{
+        position: relative;
+    right:53px;
+}
+.orange{
+    position: relative;
+    right:25px;
+}
+.blue{
+        position: relative;
+    right:77px;
+}
+.indigo{
+        position: relative;
+    right:104px;
+}
+.violet{
+        position: relative;
+    right:80px;
+}
+.redo{
+            position: relative;
+    right:111px;
+}
+.orgc{
+            position: relative;
+    right:136px;
+}
+
+.red:hover{
+    color: red;
+}
+.green:hover{
+    color: green;
+}
+.blue:hover{
+    color: blue;
+}
+.orange:hover{
+    color: orange;
+}
+.yellow:hover{
+    color: yellow;
+}
+.indigo:hover{
+    color: indigo;
+}
+.violet:hover{
+    color: violet;
+}

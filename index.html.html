@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="tictactoe.css" type="text/css" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css?family=Alfa+Slab+One|Chewy|Fredoka+One|Julius+Sans+One|Luckiest+Guy|Press+Start+2P|Righteous"
+        rel="stylesheet">
+    <title>Tic Tac Toe</title>
+</head>
+<body onload="playernameupdate()">
+    <h1 class="gamename"><span class="red">T</span> <span class="orange">I</span> <span class="yellow">C</span> <span class="green">T</span> <span class="blue">A</span> <span class="indigo">C</span> <span class="violet">T</span> <span class="red redo">O</span> <span class="orange orgc">C</span></h1>
+    <div class="startbox">
+        <div id="startbutton">
+            <button onclick="hidestartbutton();">Start Game</button>
+
+        </div>
+        <div id="inputnames">
+            <p>Player1 -> <input type="text" id="inputone" value=""></p>
+            <p>Player2 -> <input type="text" id="inputtwo" value=""></p>
+            <button onclick="startinggame()">start</button>
+        </div>
+    </div>
+    
+</body>
+<script src="tictactoe.js"></script>
+</html>
